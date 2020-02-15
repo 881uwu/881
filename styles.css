@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Color theme used: https://coolors.co/ffffff-2e2929-000000-17b890-2a2b2a */
+
+/* Default Styles */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body { 
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		background-color: #ffffff;
+    }
+/* Header Styles */
+    .header {
+        width: 98%;
+        padding: 1%;
+        position: fixed;
+        background-color: #2e2929;
+        box-shadow: 0px 1px 20px -2px #000000;
+        z-index: 1;
+    }
+    .header .h_title {
+        text-align: center;
+        font-size: 40px;
+        margin: 5px 0 20px 0;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .header .nav_buttons {
+        text-align: center;
+        margin: 0 0 17px 0;
+    }
+    .header .nav_buttons a {
+        color: #ffffff;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: .4s;
+    }
+    .header .nav_buttons a:hover {
+        transition: .4s;
+        color: #17b890;
+    }
+    .header .nav_buttons a.active {
+        text-decoration: underline;
+        text-decoration-color: #17b890;
+        text-decoration-thickness: 3px;
+    }
+/* Content Styles */
+    .content {
+        position: relative;
+        width: 90%;
+        margin: 0 auto 60px auto;
+        padding: 200px 0 0 0;
+        z-index: -1;
+    }
+/* About Styles */    
+    .content p.about {
+        line-height: 2.5;
+    }
+    .content img.pfp {
+        float: left;
+        margin: 16px 15px 10px 10px;
+    }
+/* Portfolio Styles */
+    .content .portfolio_item {
+        width: 70%;
+        margin: 0 auto 90px auto;
+    }
+    .content .port_title {
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 15px 0;
+    }
+    .content .port_img {
+        width: 100%;
+    }
+    .content .port_desc {
+        color: #2a2b2a;
+        width: 95%;
+        text-align: justify;
+        margin: 20px auto 0 auto;
+    }
+/* Contact Styles */
+    .content .contact_form {
+        position: relative;
+        margin: 0 0 60px 0;
+    }
+    .content .contact_title {
+        font-size: 30px;
+        margin: 0 0 50px 0;
+    }
+    .content .contact_text {
+        margin: 10px 0 10px 0;
+    }
+    .content .contact_message {
+        padding: 5px;
+    }
+    .content .icon_link {
+        width: 50px;
+    }
+/* Footer Styles */
+    .footer {
+        width: 100%;
+        height: 90px;
+        line-height: 90px;
+        clear: both;
+        position:  relative;
+        background-color: #000000;
+    }
+    .footer p {
+        color: #ffffff;
+    }
+    .footer p.cp_info {
+        text-align: center;
+    }
