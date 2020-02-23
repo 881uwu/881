@@ -75,6 +75,8 @@
     }
     .content .port_img {
         width: 40%;
+        display: block;
+        margin: 0 auto;
     }
     .content .port_desc {
         color: #2a2b2a;
